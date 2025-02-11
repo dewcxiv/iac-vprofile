@@ -27,13 +27,12 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "dewcxivprofileactions"
+    bucket = "vprofileaction22"
     key    = "terraform.tfstate"
     region = "ap-southeast-2"
   }
 
   required_version = "~> 1.6.3"
 }
-##
-##
+
 ##
